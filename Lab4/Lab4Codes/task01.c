@@ -17,8 +17,8 @@ int main(void)
     //used to generate a certain duty cycle
     uint32_t ui32Period;
 
-    //Set clock to run at 40MHz
-    SysCtlClockSet(SYSCTL_SYSDIV_5|SYSCTL_USE_PLL|SYSCTL_XTAL_16MHZ|SYSCTL_OSC_MAIN);
+    //Set clock to run at 5.3MHz in order to get a Delay of about .375 seconds
+    SysCtlClockSet(SYSCTL_SYSDIV_38|SYSCTL_USE_PLL|SYSCTL_XTAL_16MHZ|SYSCTL_OSC_MAIN);
 
 
     SysCtlPeripheralEnable(SYSCTL_PERIPH_GPIOF);
@@ -67,6 +67,6 @@ void Timer0IntHandler(void)
         GPIOPinWrite(GPIO_PORTF_BASE, GPIO_PIN_2, 4);
 
         //Generate a 75% duty Cycle
-        SysCtlDelay(200000);
+        SysCtlDelay(2000000);
     }
 }
