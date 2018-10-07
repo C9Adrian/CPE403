@@ -100,7 +100,7 @@ void Timer1IntHandler(void)
           ui32TempValueF = ((ui32TempValueC * 9) + 160) / 5;
 
 
-          if(ui32TempValueF > 69)
+          if(ui32TempValueF > 72)
           {
               GPIOPinWrite(GPIO_PORTF_BASE, GPIO_PIN_1|GPIO_PIN_2|GPIO_PIN_3, 4);
 
