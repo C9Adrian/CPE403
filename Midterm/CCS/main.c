@@ -123,16 +123,12 @@ void TSL2591_init ()
 //Initializes the TSL2591 to have a medium gain,
 {
     uint32_t x;
-    //x = I2C0_Read (TSL2591_ADDR, (TSL2591_COMMAND_BIT | TSL2591_ID));//read the device ID
     x = I2C0_Read (TSL2591_ADDR, (TSL2591_COMMAND_BIT | TSL2591_REGISTER_DEVICE_ID));//read the device ID
     if (x == 0x50)
     {
-    //used during debuging to make sure correct ID is received
-     //UARTprintf ("Found Device! %i\r\n", x);
     }
     else
     {
-     UARTprintf ( "Device not Found! %i\n", x);
       while (1){};      //loop here if the dev ID is not correct
     }
 //configures the TSL2591 to have medium gain adn integration time of 100ms
