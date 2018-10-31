@@ -5,8 +5,8 @@
 //My SSID information
 const char* server = "api.thingspeak.com";
 String apikey = "S5WR2DBEPDZ2UB0L";
-const char* ssid = "Ruiz";
-const char* password = "_Cielo422494";
+const char* ssid = "********";
+const char* password = "******";
 
 //holds lux value
 String luxValue;
