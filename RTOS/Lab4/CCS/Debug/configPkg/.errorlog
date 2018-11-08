@@ -1,0 +1,4 @@
+warning: ti.sysbios.BIOS: "C:/ti/tirtos_tivac_2_16_00_08/products/bios_6_45_01_29/packages/ti/sysbios/Build.xs", line 170: ti.sysbios.BIOS logsEnabled: Logs are enabled when BIOS.libType is set to BIOS.LibType_Instrumented
+error: xdc.cfg.Program: "C:/ti/xdctools_3_50_08_24_core/packages/xdc/cfg/Program.xs", line 71: xdc.cfg.Program : The package 'ti.sysbios.knl' is not compatible with XDCtools used in this build. Please either use XDCtools compatible with that package, or update the product containing that package, or rebuild the package with XDCtools 3.50 or later.
+js: "C:/ti/xdctools_3_50_08_24_core/packages/xdc/cfg/Main.xs", line 160: Error: Configuration failed!
+xdctools_3_50_08_24_core\gmake.exe: *** [package/cfg/empty_pem4f.xdl] Error 1

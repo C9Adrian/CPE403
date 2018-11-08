@@ -1,0 +1,5 @@
+error: ti.sysbios.family.arm.m3.Hwi: "C:/ti/tirtos_tivac_2_16_00_08/products/bios_6_45_01_29/packages/ti/sysbios/family/arm/m3/Hwi.xs", line 806: ti.sysbios.family.arm.m3.Hwi.Instance#0 : function cannot be null
+js: "C:/ti/xdctools_3_32_00_06_core/packages/xdc/cfg/Main.xs", line 160: Error: Configuration failed!
+xdctools_3_32_00_06_core\gmake.exe: *** [package/cfg/empty_pem4f.xdl] Error 1
+xdctools_3_32_00_06_core\gmake.exe: *** [package/cfg/empty_pem4f.xdl] Deleting file `package/cfg/empty_pem4f.h'
+xdctools_3_32_00_06_core\gmake.exe: *** [package/cfg/empty_pem4f.xdl] Deleting file `package/cfg/empty_pem4f.c'
